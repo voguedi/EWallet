@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+    <Authors>voguedi</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EWallet.Accounting.Commands\EWallet.Accounting.Commands.csproj" />
+    <ProjectReference Include="..\EWallet.Accounting.Domain\EWallet.Accounting.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
